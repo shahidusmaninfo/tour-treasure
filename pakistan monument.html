@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="faisal.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+	 <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+	 
+    
+    <title>Tour Treasures</title>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="nlogo.png">
+            </div>
+            <ul class="menu">
+                <li ><a href="index.html">HOME</a></li>
+                <li><a href="packages.html">PACKAGES</a></li>
+                <li><a href="Map.html">MAP</a></li>
+                
+                <li class="dropdown">
+                    <a href="#" class="active", class="dropbtn">LOCATION</a>
+                    <div class="dropdown-content">
+                        <a href="fasial mosquo.html">FAISAL MOSQUE</a>
+                        <a href="PAKISTAN MONUMENT.html">PAKISTAN MONUMENT</a>
+                        <a href="Lok virsa.html">LOK VIRSA HERITAGE MUSEUM</a>
+                    </div>
+                </li>
+                <li><a href="About.html">ABOUT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="information">
+        <style>
+            
+        </style>
+        
+
+
+        
+<div class="container">
+    <h1>Pakistan Monument</h1>
+
+    <h2>Design and Architecture</h2>
+    <img src="https://pbs.twimg.com/media/E2AaBfxWUAAepWs.jpg" alt="Design and Architecture">
+    <p>The Pakistan Monument was designed by the famous Turkish architect Vedat Dalokay. The monument's design is inspired by a blooming flower and consists of four large petals, which represent the four provinces of Pakistan: Punjab, Sindh, Balochistan, and Khyber Pakhtunkhwa. The central platform, in the shape of a star, represents the federal capital, Islamabad.</p>
+
+    
+    <h2>Symbolism</h2>
+    <img src="https://thumbs.dreamstime.com/z/pakistan-monument-islamabad-blue-hour-34194922.jpg" alt="Symbolism">
+    <p>The monument stands as a symbol of national unity and diversity, celebrating the country's multicultural and multiethnic heritage. It signifies the harmonious coexistence of various provinces and regions that make up Pakistan.</p>
+
+    <h2>Structure and Materials</h2>
+    <img src="https://thumbs.dreamstime.com/z/pakistan-monument-islamabad-panoramic-view-its-backside-95921383.jpg" alt="Structure and Materials">
+    <p>The structure is constructed primarily from steel and glass, with intricate latticework on the petals. The monument is illuminated at night, making it a prominent landmark that can be seen from various parts of the city.</p>
+
+    <h2>Opening Date</h2>
+    <!-- <img src="IMAGE_URL_FOR_OPENING_SECTION" alt="Opening Date"> -->
+    <p>The Pakistan Monument was inaugurated on March 23, 2007, to coincide with Pakistan's National Day celebrations. The monument's completion was a collaborative effort involving both Pakistani and foreign architects and engineers.</p>
+
+    <h2>Cultural Significance</h2>
+    <img src="https://c8.alamy.com/comp/2MCRXDA/230122-islamabad-jan-22-2023-xinhua-people-visit-the-pakistan-monument-a-popular-tourist-destination-in-islamabad-pakistan-jan-21-2023-xinhuaahmad-kamal-2MCRXDA.jpg" alt="Cultural Significance">
+    <p>The monument is not only a symbol of national pride but also a place where Pakistanis gather to celebrate important national events and holidays. Its modern design serves as a reminder of Pakistan's progress and aspirations.</p>
+
+    <h2>Visiting the Monument</h2>
+    <img src="https://www.zameen.com/blog/wp-content/uploads/2019/05/image-6-6-1-1024x640.jpg" alt="Visiting the Monument">
+    <p>Visitors can explore the grounds of the Pakistan Monument and enjoy the surrounding park. The monument's vantage point offers breathtaking views of the city and the Margalla Hills. It has become a popular spot for tourists and locals alike, attracting photography enthusiasts, families, and those seeking a moment of reflection.</p>
+
+    <h2>Nearby Attractions</h2>
+    <img src="https://www.economy.pk/wp-content/uploads/2022/02/Top-10-Places-to-Visit-in-Islamabad.jpg" alt="Nearby Attractions">
+    <p>The Pakistan Monument is situated near other notable attractions, including the Faisal Mosque, Daman-e-Koh viewpoint, and the Lok Virsa Museum, making it a part of the broader cultural and historical experience in Islamabad.</p>
+
+    <p>The Pakistan Monument encapsulates the spirit of unity, progress, and cultural richness of Pakistan. It stands as a testament to the country's history and the aspirations of its people, making it a must-visit destination for anyone exploring Islamabad's landmarks.</p>
+    <h2>Location</h2>
+    
+</div>
+
+    </section>
+
+    <section id="map">
+        
+       
+        <p>The Pakistan Monument is situated at the west end of Shakarparian Park, overlooking the picturesque Shakarparian Hills. Its strategic location provides panoramic views of the city and the surrounding landscape.</p>
+    
+        <div id="map-container">
+            <div id="map" style="width:500px;height:500px;"></div>
+ 
+ <script>
+ var map = L.map('map').setView([33.692452, 73.069702], 16);
+ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var marker = L.marker([33.692452, 73.069702]).addTo(map);
+ </script>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Usman, Wajeeha, and Neha. Group project Of WebGIS.</p>
+        <p>Submitted to : Saba javad </p>
+        <p>Department of geography</p>
+    </footer>
+
+    <script src="map.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Faisal Mosque</title>
+</head>
+<body>
+    <header>
+        <h1>Faisal Mosque</h1>
+        <nav>
+            <ul>
+                <li><a href="#information">Information</a></li>
+                <li><a href="#tour-guide">Tour Guide</a></li>
+                <li><a href="#famous-places">Famous Places</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="information">
+        <h2>Information about Faisal Mosque</h2>
+        <p>Your information about Faisal Mosque goes here...</p>
+    </section>
+
+    <section id="tour-guide">
+        <h2>Tour Guide</h2>
+        <p>Your tour guide information goes here...</p>
+    </section>
+
+    <section id="famous-places">
+        <h2>Famous Places Near Faisal Mosque</h2>
+        <p>Your famous places information goes here...</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 YourWebsiteName. All rights reserved.</p>
+    </footer>
+</body>
+</html>

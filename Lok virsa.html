@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <link rel="stylesheet" href="faisal.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+	 <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+	 
+    
+    <title>Tour Treasures</title>
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="nlogo.png">
+            </div>
+            <ul class="menu">
+              <li ><a href="index.html">HOME</a></li>
+              <li><a href="packages.html">PACKAGES</a></li>
+              <li><a href="Map.html">MAP</a></li>
+              
+              <li class="dropdown">
+                  <a href="#" class="active", class="dropbtn">LOCATION</a>
+                  <div class="dropdown-content">
+                      <a href="fasial mosquo.html">FAISAL MOSQUE</a>
+                      <a href="PAKISTAN MONUMENT.html">PAKISTAN MONUMENT</a>
+                      <a href="Lok virsa.html">LOK VIRSA HERITAGE MUSEUM</a>
+                  </div>
+              </li>
+              <li><a href="About.html">ABOUT</a></li>
+          </ul>
+      </div>
+    </header>
+
+    <section id="information">
+        <style>
+            
+        </style>
+        
+
+
+        <main>
+            <h1>Discover the Heartbeat of Pakistan's Cultural Heritage at Lok Virsa</h1>
+            <p>Welcome to Lok Virsa, the vibrant pulse of Pakistan's cultural tapestry! Nestled in the heart of Islamabad, Lok Virsa stands as a testament to the nation's rich and diverse heritage. As a beacon of tradition and a celebration of creativity, Lok Virsa invites you on a captivating journey through the sights, sounds, and stories that have shaped Pakistan's identity.</p>  
+            <section>
+              <h2>Immerse Yourself in Living History</h2>
+              <p>Step into a world where time-honored traditions come alive. Our meticulously curated museum exhibits transport you through the ages, unraveling the threads of Pakistan's folklore, art, crafts, and rituals. From intricately woven textiles to mesmerizing musical instruments, each artifact tells a tale of the people who have passed down their legacies through generations.</p>
+              <img src="https://thekarachicollective.com/wp-content/uploads/2021/06/Lok-virsa-title-02.jpg" alt="Living History Exhibition">
+            </section>
+          
+            <section>
+              <h2>Enchanting Festivals and Events</h2>
+              <p>At Lok Virsa, every day is a festival of culture and heritage. Join us as we host a kaleidoscope of events that showcase the vibrant soul of Pakistan. From spirited folk dances that resonate with the heartbeat of the land to lively musical performances that echo the melodies of the past, our events are a harmonious blend of tradition and modernity.</p>
+              <img src="https://mashriqtv.pk/en/wp-content/uploads/2021/11/Capture.jpg" alt="Festivals and Events">
+            </section>
+          
+            <section>
+              <h2>Crafting Connections</h2>
+              <p>Lok Virsa isn't just a place; it's a living bridge that connects the past with the present. Our workshops and interactive sessions invite you to engage with master craftsmen and artisans who continue to shape Pakistan's artistic landscape. Discover the secrets of pottery, woodwork, embroidery, and more, as you become a part of a legacy that spans centuries.</p>
+              <img src="https://www.theatrefolk.com/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM2MrQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--de95a0c24a6b3b2d81e19ff6fad257b95d03e47d/Connecting-the-Past-to-the-Present.png" alt="Crafting Connections Workshops">
+            </section>
+          
+            <section>
+              <h2>Preserving Our Legacy</h2>
+              <p>More than an institution, Lok Virsa is a custodian of cultural treasures. We're committed to safeguarding the intangible heritage that defines us. Through our research initiatives and documentation efforts, we ensure that the stories, songs, and traditions of Pakistan endure for generations to come.</p>
+              <img src="https://sky119191.b-cdn.net/wp-content/uploads/2021/12/Lok-Virsa-heritage-museum-visitors-increased--1080x675.jpg" alt="Preserving Our Legacy">
+            </section>
+          
+            <section>
+              <h2>A Journey Beyond Boundaries</h2>
+              <p>Lok Virsa is more than a destination; it's an experience that transcends borders. By celebrating diversity and fostering unity, we stand as a symbol of Pakistan's enduring spirit. Whether you're a local enthusiast or a global explorer, Lok Virsa welcomes you to embark on a journey that celebrates the mosaic of humanity.</p>
+              <img src="https://thekarachicollective.com/wp-content/uploads/2021/06/Lok-virsa-title-02.jpg" alt="A Journey Beyond Boundaries">
+            </section>
+          </main>
+
+    
+
+    <section id="map">
+        <h2>Location Map</h2>
+        <div id="map-container">
+            <div id="map" style="width:500px;height:500px;"></div>
+ 
+ <script>
+ var map = L.map('map').setView([33.6885667, 73.072586], 16);
+ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+var marker = L.marker([33.6885667, 73.072586]).addTo(map);
+ </script>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created by Usman, Wajeeha, and Neha. Group project Of WebGIS.</p>
+        <p>Submitted to : Saba javad </p>
+        <p>Department of geography</p>
+    </footer>
+
+    <script src="map.js"></script>
+</body>
+</html>

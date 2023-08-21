@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> TourTreasures  </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+</head>
+<body>
+    <header>
+       
+        <div class="main">
+            <div class="logo">
+                <img src="logo1.png">
+            </div>
+            <ul class="menu">
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="packages.html">PACKAGES</a></li>
+                <li><a href="Map.html">MAP</a></li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">LOCATION</a>
+                    <div class="dropdown-content">
+                        <a href="fasial mosquo.html">FAISAL MOSQUE</a>
+                        <a href="PAKISTAN MONUMENT.html">PAKISTAN MONUMENT</a>
+                        <a href="Lok virsa.html">LOK VIRSA HERITAGE MUSEUM</a>
+                    </div>
+                </li>
+                <li><a href="About.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        
+        <div class="title">
+            <h1>Your Complete Journey</h1>
+            <h1>Unveil the Treasures of Travel with Us</h1>
+         <br>
+        </div>
+
+        <div class="button">
+            <a href="fasial mosquo.html" class="btn">FAISAL MOSQUE</a>
+            <a href="PAKISTAN MONUMENT.html" class="btn">PAKISTAN MONUMENT</a>
+            <a href="Lok virsa.html" class="btn">LOK VIRSA HERITAGE MUSEUM</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="heading">
+            <h2 class="feat" id="feature">Features</h2>
+        </div>
+
+
+
+        <div class="cards_">
+            <div class="row_ish_2">
+                <div class="col-md-4 card_item_1">
+                    <div class="card">
+                        <img src="place.webp" class="card-img-top card_space_"  />
+                        <div class="card-body">
+                            <h5 class="card-title">Know about the place</h5>
+                            <p class="card-text">
+                                Before going on a trip, it's important to know about the place you want to visit and learn some interesting facts about that location.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 card_item_1">
+                    <div class="card">
+                        <img src="cost.jpg" class="card-img-top card_space_" />
+                        <div class="card-body">
+                            <h5 class="card-title">Estimate cost per trip</h5>
+                            <p class="card-text">
+                                You can estimate the cost for the entire trip you're planning to take before heading to your chosen destination.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 card_item_1">
+                    <div class="card">
+                        <img src="fact.png" class="card-img-top card_space_" />
+                        <div class="card-body">
+                            <br>
+                            <h5 class="card-title">History</h5>
+                            <p class="card-text card_para">
+                                Discover some interesting historical facts about the place you're interested in visiting.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="container">
+            <div class="heading">
+                <h2 class="feat" id="feature">Choose Place to visit</h2>
+            </div>
+
+    <div class="row_ish">
+        <div class="col_ish">
+            <a class="states_link" href="fasial mosquo.html">
+                <div class="card card_item">
+                    <img src="faisal mosque.jpg" class="card-img-top st_img"  />
+                    <div class="card-body">
+                        <h5 class="card-title">FAISAL MOSQUE</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col_ish">
+            <a class="states_link" href="Lok virsa.html">
+                <div class="card card_item">
+                    <img src="Lok virsa.jpg" class="card-img-top st_img" />
+                    <div class="card-body">
+                        <h5 class="card-title">LOK VIRSA MUSEUM</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col_ish">
+            <a class="states_link" href="pakistan monument.html">
+                <div class="card card_item">
+                    <img src="pakistan monument.jpg" class="card-img-top st_img"  />
+                    <div class="card-body">
+                        <h5 class="card-title">pakistan monument</h5>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br>
+
+
+
+<div class="formap">
+    <div class="contact_us" >
+                    <h2 class="contact_head">Contact Us</h2>
+                    <form action="mailto:ishmartishtiaq709@gmail.com" method="post">
+                        <label for="fname">
+                            <h5>First name:</h5>
+                        </label>
+                        <input type="text" id="fname" name="fname" placeholder="first name"
+                            class="input_contact" /><br /><br />
+                        <label for="lname">
+                            <h5>Last name:</h5>
+                        </label>
+                        <input class="input_contact" type="text" id="lname" name="lname"
+                            placeholder="Last Name" /><br /><br />
+                        <label for="email">
+                            <h5>
+                                Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </h5>
+                        </label>
+                        <input class="input_contact" type="email" id="email" name="email"
+                            placeholder="Email" /><br /><br />
+                        <label for="Phoneno">
+                            <h5>Phone No:</h5>
+                        </label>
+                        <input class="input_contact" type="text" id="Phoneno" name="Phoneno"
+                            placeholder="Mobile" /><br /><br />
+                        <label for="Message">
+                            <h5>Message:&nbsp;</h5>
+                        </label>
+                        <input class="input_contact" type="text" id="Message" name="Message"
+                            placeholder="type msg..." /><br /><br /><br />
+                        <input type="submit" value="Submit" class="btn btn-primary " />
+                        <input type="reset" value="Reset" class="btn btn-primary" />
+                    </form>
+                </div>
+           
+          
+    <div id="map"></div>
+            <script>
+            var map = L.map('map').setView([32.640824, 74.166517], 16);
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+               maxZoom: 19,
+               attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+           }).addTo(map);
+           var marker = L.marker([32.640824, 74.166517]).addTo(map);
+           var popup = L.popup()
+            .setLatLng([32.641724, 74.166517])
+            .setContent('<img src="https://content3.jdmagicbox.com/comp/chennai/23/044p4206923/catalogue/treasure-travels-mount-road-chennai-air-ticketing-agents-1qzeh2xqt5.jpg" width="200px" height="150px" />')
+            .openOn(map);
+            </script>
+           
+
+</div>
+        
+    </body>
+    </html>

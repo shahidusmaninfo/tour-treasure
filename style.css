@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: coentury gothic;    
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(mosque.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    padding: 30px; 
+    height: 1px;
+    margin-top: 00px; */
+    max-width: 1200px;
+    margin: auto; */
+}
+.logo img{
+    
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+ul li{
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    border: 2px solid transparent ;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: #4CAF50;
+color:white;
+}
+ul li.active a{
+    background-color: #4CAF50;
+    color:white;
+}
+.title{
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+/* Add these styles to your existing CSS or in a separate CSS file */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#4CAF50;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    /* Add space between dropdown items */
+    margin-top: 10px;
+  }
+  
+  /* Style individual dropdown items */
+  .dropdown-content a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+.title h1{
+    color: white;
+    font-size: 50px;
+}
+.button{
+    text-align: center;
+    margin-top: 100x;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px; /* Corrected padding syntax */
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: rgb(231, 226, 226);
+    color:rgb(15, 15, 15);
+    }
+
+  /* Style for the heading container */
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Adjust this value if needed */
+    margin-bottom: 30px;
+    background-color: #f2f2f2; /* For visualization purposes */
+}
+
+/* Style for the feature heading */
+.feat {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333; /* Change to your desired text color */
+    border-bottom: 2px solid #333; /* Add an underline effect */
+    padding-bottom: 5px;
+}
+
+/* Style for the entire card section */
+.cards_ {
+    padding: 20px;
+}
+
+/* Style for individual cards */
+.card_item_1 {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Style for card images */
+.card-img-top {
+    max-width: 400px;
+    height: 400px;
+}
+
+/* Style for card titles */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style for card text */
+.card-text {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Additional style for the history card */
+.card_para {
+    font-style: italic;
+}
+
+/* Spacing for the cards */
+.card_space_ {
+    margin-bottom: 10px;
+}
+
+/* Center the cards horizontally */
+.row_ish_2 {
+    display: flex;
+    justify-content: center;
+}
+/* Style for the row container */
+.row_ish {
+    text-align: center; /* Center-align the cards within the row */
+}
+
+/* Style for individual state card columns */
+.col_ish {
+    display: inline-block;
+    width: calc(33.33% - 10px); /* Adjust the width and margin as needed */
+    margin: 0 5px;
+    vertical-align: top;
+}
+.contact_us {
+    max-width: 500px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contact_head {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input_contact {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input_contact::placeholder {
+    color: #aaa;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-reset {
+    background-color: #ccc;
+    margin-left: 10px;
+}
+
+.btn-reset:hover {
+    background-color: #999;
+}
+    .formap {
+            display: flex;
+            align-items: right;
+        }
+        .contact_us {
+            flex: 1;
+            padding: 20px;
+        }
+#map {
+           
+    width: 700px;
+    height: 500px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-bottom: 20px;
+        }
